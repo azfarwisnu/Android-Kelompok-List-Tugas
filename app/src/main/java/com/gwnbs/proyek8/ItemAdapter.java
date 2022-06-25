@@ -86,6 +86,9 @@ public class ItemAdapter extends BaseAdapter {
         return new DateFormatSymbols().getMonths()[month - 1];
     }
 
+
+
+
     //Menghapus tugas dari listview
     private void deleteItem(int position) {
         deleteItemFromDb(arrayList.get(position).getId());
